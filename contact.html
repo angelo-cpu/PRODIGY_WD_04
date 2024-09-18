@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="LLYOD ANGELO JENKINS">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact - LLYOD ANGELO JENKINS</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    >
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <ul id="sidemenu">
+          <li><i class="fas fa-times" onclick="closemenu()"></i></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+      </nav>
+    </header>
+    <section id="contact" class="section_contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact_left">
+            <h2 class="sub_title">Contact</h2>
+            <p><i class="fas fa-paper-plane"></i>angelojenkins705@gmail.com</p>
+            <p><i class="fa-solid fa-square-phone"></i>9087110175</p>
+            <div class="social_media">
+              <a href="/"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="/"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a href=""
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </div>
+          </div>
+          <div class="contact_right">
+            <div class="contact_form">
+              <form name="submit-to-google-sheet">
+                <input
+                  type="text"
+                  name="Name"
+                  placeholder="Your Name"
+                  required
+                >
+                <input
+                  type="email"
+                  name="Email"
+                  placeholder="Your Email"
+                  required
+                >
+                <textarea
+                  name="Message"
+                  rows="6"
+                  placeholder="Your Message"
+                ></textarea>
+                <button type="submit" class="btn btn2">Send Message</button>
+              </form>
+            </div>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>

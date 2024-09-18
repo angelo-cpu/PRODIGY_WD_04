@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="LLYOD ANGELO JENKINS">
+    <link rel="stylesheet" href="style.css">
+    <title>About- LLYOD ANGELO JENKINS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <ul id="sidemenu">
+                <li><i class="fas fa-times" onclick="closemenu()"></i></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+    </header>
+    <section id="about" class="section_about">
+        <div class="container">
+            <div class="row">
+                <div class="column_1">
+                </div>
+                <div class="column_2">
+                    <h2 class="sub_title">About </h2>
+                    <p>I'm an aspiring full-stack developer with a strong foundation in front-end technologies like HTML, CSS, and JavaScript. I specialize in creating interactive and responsive web experiences and have a passion for building intuitive digital solutions.</p>
+                    <p>While I currently focus on front-end development, I am eager to expand into back-end technologies to become a versatile developer. I'm committed to continuous learning and enjoy exploring new tools and frameworks. I believe in collaboration and innovation to solve real-world problems and am excited to contribute to impactful projects.</p>
+                    <div class="tabs_heading">
+                        <p class="tab_link active" onclick="opentab('education')">Education</p>
+                        <p class="tab_link" onclick="opentab('experience')">Experience</p>
+                        <p class="tab_link" onclick="opentab('skills')">Skills</p>
+                    </div>
+                    <div id="education" class="tab_content active_content">
+                        <ul>
+                            <li>
+                                <span>BCA</span><br>
+                                Bachelor of Computer Applications<br>
+                                Christ College of Science and Management, Alambady, Malur, Karnataka<br>
+                                2022 - 2025
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="experience" class="tab_content">
+                        <ul>
+                            <li>
+                                <span>Internship at Prodigy InfoTech</span><br>
+                                Web Developer Intern<br>
+                                August 2024 - September 2024<br>
+                                Worked on building responsive web applications using HTML, CSS, and JavaScript. Developed interactive features and optimized websites for better performance.
+                            </li> 
+                            <li>
+                                <span>Internship at Michbiz Services</span><br>
+                                March 2024 - April 2024<br>
+                                Worked on building communicative skills and working under a team in cooperate sector.
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="skills" class="tab_content">
+                        <ul>
+                            <li>
+                                <span>Front-End Development</span><br>
+                                HTML, CSS, JavaScript, Responsive Design
+                            </li>
+                            <li>
+                                <span>Version Control</span><br>
+                                Git, GitHub
+                            </li>
+                            <li>
+                                <span>Web Design</span><br>
+                                UI/UX Design, Adobe XD
+                            </li>
+                            <li>
+                                <span>Basic Programming</span><br>
+                                C, C#, Python
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
